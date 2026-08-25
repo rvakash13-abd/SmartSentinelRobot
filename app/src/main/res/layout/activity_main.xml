@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Sentinel Robot"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#1E88E5"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Connect -->
+        <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect Bluetooth" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: Not Connected"
+            android:layout_margin="10dp" />
+
+        <!-- Core Controls -->
+        <Button
+            android:id="@+id/btnTemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temperature" />
+
+        <Button
+            android:id="@+id/btnAuto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Autonomous" />
+
+        <Button
+            android:id="@+id/btnVacOn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vacuum ON (Manual Mode)" />
+
+        <Button
+            android:id="@+id/btnVacOff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vacuum OFF" />
+
+        <!-- Manual Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manual Control"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:id="@+id/btnForward"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forward" />
+
+        <Button
+            android:id="@+id/btnBackward"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Backward" />
+
+        <Button
+            android:id="@+id/btnLeft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Left" />
+
+        <Button
+            android:id="@+id/btnRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Right" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop" />
+
+    </LinearLayout>
+
+</ScrollView>
