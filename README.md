@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;height=260&amp;color=0:012A2D,25:014D40,60:0B6E4F,100:08D9A5&amp;text=MEDEX&amp;fontSize=68&amp;fontColor=E8FFF7&amp;fontAlignY=38&amp;animation=fadeIn&amp;desc=AI-Powered%20Smart%20Medicine%20Vending%20Machine&amp;descAlignY=60&amp;descColor=B7FFE8&amp;descSize=17"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;height=260&amp;color=0:012A2D,25:014D40,60:0B6E4F,100:08D9A5&amp;text=Smart Sentinel Robot &amp;fontSize=68&amp;fontColor=E8FFF7&amp;fontAlignY=38&amp;animation=fadeIn&amp;desc=AI-Powered%20Smart%20Medicine%20Vending%20Machine&amp;descAlignY=60&amp;descColor=B7FFE8&amp;descSize=17"/>
 
 </div>
 
